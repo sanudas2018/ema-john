@@ -1,0 +1,24 @@
+.card{
+   border-radius: 10px;
+   padding: 4px;
+}
+.card img{
+   /* width: 80%;
+   height: 200px; */
+   display: inline-block;
+   margin: 0px auto;
+   border-radius: 10px 10px 0px 0px;
+
+}
+.product-id{
+   font-size: 12px;
+}
+.card-body p{
+   margin-top: 0px;
+   margin-bottom: 5px;
+   padding-top: 0px;
+   padding-bottom: 0px;
+}
+.my-btn:hover{
+   background-color: rgba(218, 158, 47, 0.671);
+}
