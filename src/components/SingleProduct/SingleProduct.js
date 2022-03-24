@@ -20,7 +20,7 @@ const SingleProduct = (props) => {
                   <p>Quantity: {quantity}</p>
                </div>
                <div className='d-grid gap-2'>
-                  <button onClick={() => handleAddToCart(name)} className='btn btn-primary my-btn' type='button'>Add To Card <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon></button>
+                  <button onClick={() => handleAddToCart(props.product)} className='btn btn-primary my-btn' type='button'>Add To Card <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon></button>
                   
                </div>
             </div>
